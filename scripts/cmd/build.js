@@ -17,7 +17,7 @@ const defaultConfig = {
 	sourcesContent: false,
 };
 
-const dt = new Intl.DateTimeFormat('en-us', {
+const dt = new Intl.DateTimeFormat('en-US', {
 	hour: '2-digit',
 	minute: '2-digit',
 });

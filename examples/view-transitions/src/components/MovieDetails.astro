@@ -7,7 +7,7 @@ const movie = {
 		? 'https://image.tmdb.org/t/p/w500/' + data.poster_path
 		: 'https://via.placeholder.com/500x750',
 	vote_average: (data.vote_average * 10).toFixed(2) + '%',
-	release_date: new Date(data.release_date).toLocaleDateString('en-us', {
+	release_date: new Date(data.release_date).toLocaleDateString('en-US', {
 		year: 'numeric',
 		month: 'long',
 		day: 'numeric',
